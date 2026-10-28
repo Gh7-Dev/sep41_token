@@ -12,7 +12,7 @@ A learning project implementing a fungible token contract on Stellar using Rust 
 - Approve a spender to transfer or burn tokens within an allowance.
 - Transfer tokens and transfer on behalf of an owner.
 - Burn tokens directly or through an allowance.
-- Query token name, symbol, decimals, and total supply (the total-supply value is maintained internally by the contract).
+- Query token name, symbol, and decimals. Total supply is maintained internally, but the current contract does not expose a public total-supply getter.
 
 The current test setup initializes a token named `BlockTicket` with symbol `BKT`, 7 decimals, and an initial supply of 1,000,000 units.
 
